@@ -1,4 +1,7 @@
 FROM node:11.1.0-alpine
+# Mode
+ENV NODE_ENV=development
+# ENV NODE_ENV=production
 
 LABEL maintainer="Luca Perret <perret.luca@gmail.com>" \
       org.label-schema.vendor="Strapi" \
